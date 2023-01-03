@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 
 # 1. Open the temporary output file from the first script and create a CSV file for the extracted data.
 file = open('temp_output.csv')
-reader = csv.DictReader(file) # Format of the output file: name, surname, status, duplicate, filename, muckrack.url
+reader = csv.DictReader(file)
 output = open('muckrack_out.csv', 'wt', encoding='utf-8', newline='')
 output_header = ['email','name', 'surname', 'status', 'tags', 'location', 'journals', 'duplicate', 'muckrack.url', 'twitter', 'linkedin']
 writer = csv.DictWriter(output, fieldnames=output_header, dialect='excel')
