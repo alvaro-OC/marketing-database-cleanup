@@ -11,7 +11,7 @@ from googlesearch import search
 ## STAGE 1: Opening the database, searching in Google, and saving HTML files. ##
 ################################################################################
 
-database = 'sample_all_100.csv'  # Columns: email, status, first_name, last_name, company
+database = 'sample_all_100.csv'
 file = open(database, encoding='utf-8')
 reader = csv.DictReader(file)
 temp_output = open("temp_output.csv", "wt", encoding='utf-8', newline='')
