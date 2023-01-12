@@ -1,7 +1,7 @@
 Software requirements:
 - Python 3.9 with libraries:
 	- BeautifulSoup4: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-	- Googlesearch: https://pypi.org/project/googlesearch-python/
+	- Google: https://pypi.org/project/google/
 	- pyautogui: https://pyautogui.readthedocs.io/en/latest/
 	- Should come pre-installed (at least in the Anaconda distribution): os, time, csv, webbrowser
 
