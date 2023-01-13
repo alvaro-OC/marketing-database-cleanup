@@ -1,6 +1,7 @@
 Software requirements:
 - Python 3.9 with libraries:
 	- BeautifulSoup4: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+		- Requires installation of lxml (https://beautiful-soup-4.readthedocs.io/en/latest/#installing-a-parser)
 	- Google: https://pypi.org/project/google/
 	- pyautogui: https://pyautogui.readthedocs.io/en/latest/
 	- Should come pre-installed (at least in the Anaconda distribution): os, time, csv, webbrowser
